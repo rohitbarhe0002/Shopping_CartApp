@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductsContainer from './ProductsContainer'
 import CartContainer from './CartContainer'
-import {LoginForm} from '../components/LoginForm'
+import LoginForm from '../components/LoginForm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar'
