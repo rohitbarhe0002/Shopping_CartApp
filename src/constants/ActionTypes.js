@@ -4,5 +4,5 @@ export const CHECKOUT_SUCCESS = 'CHECKOUT_SUCCESS'
 export const CHECKOUT_FAILURE = 'CHECKOUT_FAILURE'
 export const RECEIVE_PRODUCTS = 'RECEIVE_PRODUCTS'
 export const SHOW_HIDE = 'SHOW_HIDE'
-
+export const showhides = (payload) => ({ type:SHOW_HIDE, payload });
 

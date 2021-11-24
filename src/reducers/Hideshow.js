@@ -5,7 +5,7 @@ import { SHOW_HIDE } from "../constants/ActionTypes";
    
   }
   
-  export default function show&hideModal (state = initialState, action) {
+  export default function showhide  (state = initialState, action) {
     switch (action.type) {
       case SHOW_HIDE:
         return {

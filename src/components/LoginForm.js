@@ -23,30 +23,21 @@ import { useDispatch,useSelector } from 'react-redux';
 
     const onInputchange =(event)=>{
         setaValue({...value, [event.target.name]:event.target.value})
-        //Set localstorage
-        localStorage.setItem()
-
-        //Get localstorage
-       var localStorage = localStorage.getItem()
     }
-// value.username === localsetorage.username
+    console.log(value)
     const handleClose = () => {
-        dispatch(HIDEmODAL)
-
-        dispatch(XYZ(FALSE))
+      setShow(false);
     }
-    setShow(false);
     const handleShow=()=>{
+      setShow(true)
 
     } 
-        // dispatch(SHOWmODAL)
-        dispatch(XYZ(TRUE))
-    setShow(true);
+    
     
    const  handleSubmit=(event)=>{ 
        event.preventDefault();
-      
-        console.log(value)
+      setShow(false)
+      console.log(value)
     }
 
     return (
@@ -84,6 +75,7 @@ import { useDispatch,useSelector } from 'react-redux';
       </>
     );
   }
+
   export default Example;
   
  
